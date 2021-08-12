@@ -8,7 +8,7 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import './App.css';
 import Profile from './components/Profile/Profile';
-
+import Footer from './components/Footer';
 
 const particlesOptions = {
   particles: {
@@ -149,6 +149,7 @@ class App extends Component {
               )
             )
         }
+        <Footer/>
       </div>
     );
   }
